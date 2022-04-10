@@ -2,12 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
 
-@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Advertência & display=swap');
 
-:root{
+:root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursiva;
-    --fonte3: 'Sriracha', cursiva;
+    --fonte3: 'Caveat', cursiva;
 }
 
 *{
@@ -18,7 +18,7 @@
 body{
     min-height: 100vh;
     background-color: darkgray;
-    font-family:var(--fonte1)
+    font-family:var(--fonte1);
 
 }
 header {
