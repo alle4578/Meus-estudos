@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML 5</title>
+</head>
+<body>
+    <h1>Inserindo videos ospedados lacalmente.</h1>
+    <p>Este video esta ospedados em meu propio servidor</p>
+   
+      <!--
+          <video src="midia/video.ogv" width="500" controls></video> modo mais simples..
+         
+      --> 
+   <video controls width="500" poster="imagem/limao.png" preload="metadata" loop>
+        <source src="midia/video.ogv" type="video/ogg">
+       <source src="midia/video.webm" type="video/webm">
+       <source src="midia/video.mp4" type="video/mp4">
+       <source src="midia/videofull.mp4" type="video/mp4">
+   </video>
+<p>Caso seu navegador não tenha compatibilidade com reprodução de videos. <a href="midia/videofull.mp4">Clique aqui e faça o dowload</a>
+ </p>
+ <h1>Adicionando videos externos</h1>
+ <h2>inserindo video do youtube </h2>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/CALWA2nLxzc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <h2> Video do facebook</h2>
+ <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fsirhunner%2Fvideos%2F957606715114655%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+</body>
+</html>

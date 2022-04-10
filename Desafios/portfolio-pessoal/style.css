@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+     display: block;
+     max-width: 100%;
+}
+li{
+    list-style: none;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    background: url("img/bg.jpg")
+    no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    color: #383838be;
+}
+.titulo{
+    font-size: 36px;
+    font-weight: normal;
+
+}
+
+.profile box{
+    background: #eee;
+    padding: 4rem;
+    box-shadow:  2px 4px 16px rgba(0, 0, 0, 0.39);
+    border-radius: 30px;
+
+}
+
+.profile-pic{
+    border-radius: 50%;
+    box-shadow:  2px 4px 6px rgba(0, 0, 0, 0.363);
+    margin: 0 auto 2rem auto;
+
+}
+
+.profile box span{
+    font-size: 24px;
+}
+.profile box p{
+    font-size: 18px;
+    margin-top: 2rem ;
+    margin-bottom: 4rem;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.redes li{
+    margin-right: 1rem;
+
+}
+.portifolio{
+    max-width: 886px;
+    margin: 8rem 0;
+}

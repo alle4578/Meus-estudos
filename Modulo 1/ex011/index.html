@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos ou diminua a janela de seu navegador</p> 
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/foto-m.png" type="image/png">
+        <img src="imagem/foto-g.png" alt="imagem flexivel">
+    </picture>
+<!--
+    
+    <audio src="midia/happy-mistake.mp3" controls autoplay></audio> <!--mp3 wav ogg
+    autoplay faz com  que o som inicie automaticamente-->
+
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir audio em HTML5.</p>
+    <audio preload="metadata" controls loop >
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg"> 
+        <source src="midia/happy-mistake.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+
+    </audio>
+            <p>Caso seu navegador nao consegue reproduzir audio. <a href="midia/guanacast-33.mp3"> Clique aqui para baixar o arquivo mp3</a></p>
+    
+</body>
+</html>
